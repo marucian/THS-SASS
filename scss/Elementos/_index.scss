@@ -1,0 +1,189 @@
+/* Grilla Index */
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 90px 0.4fr 0.4fr 0.3fr 0.3fr 0.3fr 0.3fr 0.4fr 0.3fr 0.5fr 0.15fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header header header header"
+        "homeBanner homeBanner homeBanner homeBanner homeBanner homeBanner"
+        "homeBanner homeBanner homeBanner homeBanner homeBanner homeBanner"
+        "diseñoProposito diseñoProposito diseñoProposito diseñoProposito diseñoProposito diseñoProposito"
+        "img1 img1 img2 img2 img3 img3"
+        "img1 img1 img2 img2 img3 img3"
+        "img4 img5 img5 img6 img6 boton"
+        "img4 img5 img5 img6 img6 boton"
+        "diseñoSomos diseñoSomos diseñoSomos diseñoSomos diseñoSomos diseñoSomos"
+        "bannerArboles bannerArboles bannerArboles bannerArboles bannerArboles bannerArboles"
+        "footer footer footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.homeBanner {
+    grid-area: homeBanner;
+    background-color: blue;
+
+}
+
+.diseñoProposito {
+    grid-area: diseñoProposito;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1 {
+    grid-area: img1;
+    background-color: chartreuse;
+    margin-top: 10px;
+}
+
+.img2 {
+    grid-area: img2;
+    background-color: crimson;
+    margin-top: 10px;
+}
+
+.img3 {
+    grid-area: img3;
+    background-color: deeppink;
+    margin-top: 10px;
+}
+
+.img4 {
+    grid-area: img4;
+    background-color: khaki;
+    margin-top: 10px;
+}
+
+.img5 {
+    grid-area: img5;
+    background-color: olivedrab;
+    margin-top: 10px;
+}
+
+.img6 {
+    grid-area: img6;
+    background-color: salmon;
+    margin-top: 10px;
+}
+
+.boton {
+    grid-area: boton;
+    background-color: rgb(36, 182, 22);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.diseñoSomos {
+    grid-area: diseñoSomos;
+    background-color: plum;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannerArboles {
+    grid-area: bannerArboles;
+    background-color: powderblue;
+}
+
+.footer {
+    grid-area: footer;
+    font-weight: 100;
+    font-size: 13px;
+    background-color: aliceblue;
+    padding-left: 20px;
+}
+
+/* Header */
+
+.navFlex {
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.headerMenu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.linkHeaderMenu {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    text-align: right;
+    font-weight: 200;
+    color: darkgray
+}
+
+.linkHeaderMenu:hover {
+    font-weight: 500;
+    color: #d1caec;
+    text-decoration: underline;
+}
+
+/* BannerHome */
+.imgBannerPrincipal {
+    width: 100%;
+}
+
+/* Diseño con proposito y Somos lo que diseñamos */
+
+.diseñoTitulo {
+    font-family: 'Lexend', sans-serif;
+    font-size: 56px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 56px;
+}
+
+.diseñoParrafo {
+    font-family: 'Lexend', sans-serif;
+    width: 40%;
+    padding-left: 40px;
+    text-align: right;
+}
+
+/* Galeria de proyectos */
+
+.imgGeneral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segundaLineaBoton {
+    font-size: 56px;
+    text-align: left;
+    font-weight: 900;
+    color: #000000;
+    line-height: 50px;
+    position: absolute;
+    left: 75%;
+}
+
+/* Banner Arboles */
+.imgArboles {
+    width: 100%;
+}

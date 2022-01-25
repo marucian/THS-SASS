@@ -1,0 +1,138 @@
+/* PAGINA PROYECTOS */
+.grillaProyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 90px 0.3fr 0.5fr 1fr 1fr 1fr 0.15fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header"
+        "tituloProyectos tituloProyectos tituloProyectos"
+        "menuProyectos menuProyectos menuProyectos"
+        "imgPro1 imgPro2 imgPro3"
+        "imgPro4 imgPro5 imgPro6"
+        "imgPro7 imgPro8 imgPro9"
+        "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.tituloProyectos {
+    grid-area: tituloProyectos;
+    font-family: 'Lexend', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.menuProyectos {
+    grid-area: menuProyectos;
+}
+
+.imgPro1 {
+    grid-area: imgPro1;
+    display: flex;
+    justify-content: center;
+    background-color: #484747;
+    overflow: hidden;
+}
+
+.imgPro2 {
+    grid-area: imgPro2;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.imgPro3 {
+    grid-area: imgPro3;
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    overflow: hidden;
+}
+
+.imgPro4 {
+    grid-area: imgPro4;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.imgPro5 {
+    grid-area: imgPro5;
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    overflow: hidden;
+}
+
+.imgPro6 {
+    grid-area: imgPro6;
+    display: flex;
+    justify-content: center;
+    background-color: darkviolet;
+    overflow: hidden;
+}
+
+.imgPro7 {
+    grid-area: imgPro7;
+    display: flex;
+    justify-content: center;
+    background-color: deeppink;
+    overflow: hidden;
+
+}
+
+.imgPro8 {
+    grid-area: imgPro8;
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    overflow: hidden;
+}
+
+.imgPro9 {
+    grid-area: imgPro9;
+    display: flex;
+    justify-content: center;
+    background-color: lightsalmon;
+    overflow: hidden;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+/* Menu de proyectos */
+.proyectosMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.proyectoBoton {
+    font-size: 17px;
+    font-weight: 100;
+    border: solid 1px #484747;
+    padding: 9px;
+    border-radius: 30px;
+}
+
+.proyectoBoton:hover {
+    background-color: #484747;
+}
+
+.proyectoLink {
+    color: #484747;
+}
+
+.proyectoLink:hover {
+    color: azure;
+}

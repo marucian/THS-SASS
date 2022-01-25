@@ -1,0 +1,42 @@
+/* Reseteo CSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/* Fuentes */
+@import "./Elementos/fonts";
+
+/* Index */
+@import "./Elementos/index";
+
+/* Proyectos */
+@import "./Elementos/proyectos";
+
+/* Nosotros */
+@import "./Elementos/nosotros";
+
+/* Hablemos */
+@import "./Elementos/hablemos";
+
+
+/* MEDIA QUERYS */
+/* Chico */
+@import "./Elementos/chico";
+
+/* Mediano */
+@import "./Elementos/mediano";
+
+/* Grande */
+@import "./Elementos/grande";
+
+
+
+
+
+
+

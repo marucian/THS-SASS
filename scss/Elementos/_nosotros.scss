@@ -1,0 +1,94 @@
+/* Grilla Nosotrxs */
+.grillaNosotrxs {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 0.3fr;
+    grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr 1fr 0.15fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header header header header header header"
+        "Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs"
+        "Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs Banner-Nosotrxs"
+        ". card1 card1 card2 card2 ."
+        ". card1 card1 card2 card2 ."
+        ". card3 card3 card4 card4 ."
+        ". card3 card3 card4 card4 ."
+        "footerNosotrxs footerNosotrxs footerNosotrxs footerNosotrxs footerNosotrxs footerNosotrxs";
+}
+
+.header {
+    grid-area: header;
+}
+
+.Banner-Nosotrxs {
+    grid-area: Banner-Nosotrxs;
+}
+
+.card1 {
+    grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%
+}
+
+.card2 {
+    grid-area: card2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%
+}
+
+.card3 {
+    grid-area: card3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.card4 {
+    grid-area: card4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.footerNosotrxs {
+    grid-area: footerNosotrxs;
+}
+
+/* Nosotrxs */
+
+.nosotrosBanner {
+    width: 100%;
+}
+
+/* Cards */
+.nosotrosCardImg {
+    width: 25%;
+}
+
+.nosotrosCardTitulo {
+    font-size: 32px;
+    text-align: center;
+}
+
+.nosotrosCardTxt {
+    padding-top: 3%;
+    font-size: 14px;
+    text-align: center;
+    width: 85%;
+}
+
+/* Footer */
+.footerNos {
+    grid-area: footer;
+    font-weight: 100;
+    font-size: 13px;
+    background-color: aliceblue;
+    padding-left: 20px;
+    margin-top: 3%;
+}
