@@ -269,6 +269,19 @@ h2, p, h3, h4, a {
   grid-area: footer; }
 
 /* Nosotros */
+/* MAPS + EACH */
+.card1 {
+  color: #92DCE5; }
+
+.card2 {
+  color: #FF66D8; }
+
+.card3 {
+  color: #2B2D42; }
+
+.card4 {
+  color: #92DCE5; }
+
 /* Grilla Nosotrxs */
 .grillaNosotrxs {
   display: grid;
@@ -324,7 +337,6 @@ h2, p, h3, h4, a {
     padding-left: 20px;
     color: #F8F7F9; }
 
-/* Nosotrxs */
 /* Cards */
 .nosotrosCardImg {
   width: 25%; }

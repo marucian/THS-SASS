@@ -1,3 +1,18 @@
+/* MAPS + EACH */
+$estilocards: (
+    card1: $Cian,
+    card2: $Rosa,
+    card3: $Azul,
+    card4: $Cian
+);
+
+@each $tarjeta, $color in $estilocards {
+    .#{$tarjeta}{
+        color: $color;
+    }
+}
+
+
 /* Grilla Nosotrxs */
 .grillaNosotrxs {
     display: grid;
@@ -71,9 +86,6 @@
         color: $Blanco
     }
 }
-
-/* Nosotrxs */
-
 
 /* Cards */
 .nosotrosCardImg {
