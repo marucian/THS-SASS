@@ -206,64 +206,64 @@ h2, p, h3, h4, a {
   grid-area: imgPro1;
   display: flex;
   justify-content: center;
-  background-color: #484747;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #92DCE5; }
 
 .imgPro2 {
   grid-area: imgPro2;
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #2B2D42; }
 
 .imgPro3 {
   grid-area: imgPro3;
   display: flex;
   justify-content: center;
-  background-color: brown;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #FF66D8; }
 
 .imgPro4 {
   grid-area: imgPro4;
   display: flex;
   justify-content: center;
-  background-color: cadetblue;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #2B2D42; }
 
 .imgPro5 {
   grid-area: imgPro5;
   display: flex;
   justify-content: center;
-  background-color: crimson;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #FF66D8; }
 
 .imgPro6 {
   grid-area: imgPro6;
   display: flex;
   justify-content: center;
-  background-color: darkviolet;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #92DCE5; }
 
 .imgPro7 {
   grid-area: imgPro7;
   display: flex;
   justify-content: center;
-  background-color: deeppink;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #FF66D8; }
 
 .imgPro8 {
   grid-area: imgPro8;
   display: flex;
   justify-content: center;
-  background-color: gold;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #92DCE5; }
 
 .imgPro9 {
   grid-area: imgPro9;
   display: flex;
   justify-content: center;
-  background-color: lightsalmon;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #2B2D42; }
 
 .footer {
   grid-area: footer; }
@@ -534,5 +534,3 @@ h2, p, h3, h4, a {
     line-height: 50px;
     position: absolute;
     left: 70%; } }
-
-/* Estilo Proyecto Galeria */

@@ -1,3 +1,12 @@
+@mixin galeria($color){
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: $color;
+}
+
+
+
 /* PAGINA PROYECTOS */
 .grillaProyectos {
     display: grid;
@@ -60,48 +69,48 @@
 
 .imgPro1 {
     grid-area: imgPro1;
-    @include imgproyectos($Rosa)
+    @include galeria($Cian)
 }
 
 .imgPro2 {
     grid-area: imgPro2;
-    @include imgproyectos($Rosa)
+    @include galeria($Azul)
 }
 
 .imgPro3 {
     grid-area: imgPro3;
-    @include imgproyectos($Rosa)
+    @include galeria($Rosa)
 }
 
 .imgPro4 {
     grid-area: imgPro4;
-    @include imgproyectos($Rosa)
+    @include galeria($Azul)
 }
 
 .imgPro5 {
     grid-area: imgPro5;
-    @include imgproyectos($Rosa)
+    @include galeria($Rosa)
 }
 
 .imgPro6 {
     grid-area: imgPro6;
-    @include imgproyectos($Rosa)
+    @include galeria($Cian)
 }
 
 .imgPro7 {
     grid-area: imgPro7;
-    @include imgproyectos($Rosa)
+    @include galeria($Rosa)
 
 }
 
 .imgPro8 {
     grid-area: imgPro8;
-    @include imgproyectos($Rosa)
+    @include galeria($Cian)
 }
 
 .imgPro9 {
     grid-area: imgPro9;
-    @include imgproyectos($Rosa)
+    @include galeria($Azul)
 }
 
 .footer {
