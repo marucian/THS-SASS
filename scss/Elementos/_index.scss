@@ -48,12 +48,12 @@
         font-size: 15px;
         text-align: right;
         font-weight: 200;
-        color: darkgray
+        color: $Azul
     }
     
     .linkHeaderMenu:hover {
         font-weight: 500;
-        color: #d1caec;
+        color: $Cian;
         text-decoration: underline;
     }
 }
@@ -70,7 +70,7 @@
 /* Diseño con proposito y Somos lo que diseñamos */
 .diseñoProposito {
     grid-area: diseñoProposito;
-    background-color: yellow;
+    background-color: $Amarillo;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,43 +81,43 @@
 
 .img1 {
     grid-area: img1;
-    background-color: chartreuse;
+    background-color: $Cian;
     margin-top: 10px;
 }
 
 .img2 {
     grid-area: img2;
-    background-color: crimson;
+    background-color: $Blanco;
     margin-top: 10px;
 }
 
 .img3 {
     grid-area: img3;
-    background-color: deeppink;
+    background-color: $Rosa;
     margin-top: 10px;
 }
 
 .img4 {
     grid-area: img4;
-    background-color: khaki;
+    background-color: $Blanco;
     margin-top: 10px;
 }
 
 .img5 {
     grid-area: img5;
-    background-color: olivedrab;
+    background-color: $Cian;
     margin-top: 10px;
 }
 
 .img6 {
     grid-area: img6;
-    background-color: salmon;
+    background-color: $Rosa;
     margin-top: 10px;
 }
 
 .boton {
     grid-area: boton;
-    background-color: rgb(36, 182, 22);
+    background-color: $Blanco;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@
 
 .diseñoSomos {
     grid-area: diseñoSomos;
-    background-color: plum;
+    background-color: $Rosa;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -136,7 +136,7 @@
 /* Banner Arboles */
 .bannerArboles {
     grid-area: bannerArboles;
-    background-color: powderblue;
+    background-color: $Cian;
     .imgArboles {
         width: 100%;
     }
@@ -147,8 +147,9 @@
     grid-area: footer;
     font-weight: 100;
     font-size: 13px;
-    background-color: aliceblue;
+    background-color: $Azul;
     padding-left: 20px;
+    color: $Blanco
 }
 
 

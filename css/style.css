@@ -13,6 +13,8 @@
 h2, p, h3, h4, a {
   font-family: 'Lexend', sans-serif; }
 
+/* Colores */
+/* Colores */
 /* Index */
 /* Grilla Index */
 .grilla {
@@ -46,10 +48,10 @@ h2, p, h3, h4, a {
     font-size: 15px;
     text-align: right;
     font-weight: 200;
-    color: darkgray; }
+    color: #2B2D42; }
   .header .linkHeaderMenu:hover {
     font-weight: 500;
-    color: #d1caec;
+    color: #92DCE5;
     text-decoration: underline; }
 
 /* BannerHome */
@@ -62,7 +64,7 @@ h2, p, h3, h4, a {
 /* Diseño con proposito y Somos lo que diseñamos */
 .diseñoProposito {
   grid-area: diseñoProposito;
-  background-color: yellow;
+  background-color: #F7EC59;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -71,44 +73,44 @@ h2, p, h3, h4, a {
 
 .img1 {
   grid-area: img1;
-  background-color: chartreuse;
+  background-color: #92DCE5;
   margin-top: 10px; }
 
 .img2 {
   grid-area: img2;
-  background-color: crimson;
+  background-color: #F8F7F9;
   margin-top: 10px; }
 
 .img3 {
   grid-area: img3;
-  background-color: deeppink;
+  background-color: #FF66D8;
   margin-top: 10px; }
 
 .img4 {
   grid-area: img4;
-  background-color: khaki;
+  background-color: #F8F7F9;
   margin-top: 10px; }
 
 .img5 {
   grid-area: img5;
-  background-color: olivedrab;
+  background-color: #92DCE5;
   margin-top: 10px; }
 
 .img6 {
   grid-area: img6;
-  background-color: salmon;
+  background-color: #FF66D8;
   margin-top: 10px; }
 
 .boton {
   grid-area: boton;
-  background-color: #24b616;
+  background-color: #F8F7F9;
   margin-top: 10px;
   display: flex;
   align-items: center; }
 
 .diseñoSomos {
   grid-area: diseñoSomos;
-  background-color: plum;
+  background-color: #FF66D8;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -118,7 +120,7 @@ h2, p, h3, h4, a {
 /* Banner Arboles */
 .bannerArboles {
   grid-area: bannerArboles;
-  background-color: powderblue; }
+  background-color: #92DCE5; }
   .bannerArboles .imgArboles {
     width: 100%; }
 
@@ -127,8 +129,9 @@ h2, p, h3, h4, a {
   grid-area: footer;
   font-weight: 100;
   font-size: 13px;
-  background-color: aliceblue;
-  padding-left: 20px; }
+  background-color: #2B2D42;
+  padding-left: 20px;
+  color: #F8F7F9; }
 
 /* Galeria de proyectos */
 .imgGeneral {
@@ -317,9 +320,9 @@ h2, p, h3, h4, a {
     grid-area: footer;
     font-weight: 100;
     font-size: 13px;
-    background-color: aliceblue;
+    background-color: #2B2D42;
     padding-left: 20px;
-    margin-top: 3%; }
+    color: #F8F7F9; }
 
 /* Nosotrxs */
 /* Cards */
@@ -531,3 +534,5 @@ h2, p, h3, h4, a {
     line-height: 50px;
     position: absolute;
     left: 70%; } }
+
+/* Estilo Proyecto Galeria */

@@ -60,75 +60,48 @@
 
 .imgPro1 {
     grid-area: imgPro1;
-    display: flex;
-    justify-content: center;
-    background-color: #484747;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro2 {
     grid-area: imgPro2;
-    display: flex;
-    justify-content: center;
-    background-color: aquamarine;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro3 {
     grid-area: imgPro3;
-    display: flex;
-    justify-content: center;
-    background-color: brown;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro4 {
     grid-area: imgPro4;
-    display: flex;
-    justify-content: center;
-    background-color: cadetblue;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro5 {
     grid-area: imgPro5;
-    display: flex;
-    justify-content: center;
-    background-color: crimson;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro6 {
     grid-area: imgPro6;
-    display: flex;
-    justify-content: center;
-    background-color: darkviolet;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro7 {
     grid-area: imgPro7;
-    display: flex;
-    justify-content: center;
-    background-color: deeppink;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 
 }
 
 .imgPro8 {
     grid-area: imgPro8;
-    display: flex;
-    justify-content: center;
-    background-color: gold;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .imgPro9 {
     grid-area: imgPro9;
-    display: flex;
-    justify-content: center;
-    background-color: lightsalmon;
-    overflow: hidden;
+    @include imgproyectos($Rosa)
 }
 
 .footer {
