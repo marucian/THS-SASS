@@ -29,6 +29,33 @@
 
 .menuProyectos {
     grid-area: menuProyectos;
+    .proyectosMenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+    
+    .proyectoBoton {
+        font-size: 17px;
+        font-weight: 100;
+        border: solid 1px #484747;
+        padding: 9px;
+        border-radius: 30px;
+    }
+    
+    .proyectoBoton:hover {
+        background-color: #484747;
+    }
+    
+    .proyectoLink {
+        color: #484747;
+    }
+    
+    .proyectoLink:hover {
+        color: azure;
+    }
 }
 
 .imgPro1 {
@@ -106,33 +133,4 @@
 
 .footer {
     grid-area: footer;
-}
-
-/* Menu de proyectos */
-.proyectosMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 2%;
-    margin-top: 3%;
-}
-
-.proyectoBoton {
-    font-size: 17px;
-    font-weight: 100;
-    border: solid 1px #484747;
-    padding: 9px;
-    border-radius: 30px;
-}
-
-.proyectoBoton:hover {
-    background-color: #484747;
-}
-
-.proyectoLink {
-    color: #484747;
-}
-
-.proyectoLink:hover {
-    color: azure;
 }

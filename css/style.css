@@ -10,19 +10,7 @@
 
 /* Fuentes */
 /* Fuentes */
-h2 {
-  font-family: 'Lexend', sans-serif; }
-
-p {
-  font-family: 'Lexend', sans-serif; }
-
-h3 {
-  font-family: 'Lexend', sans-serif; }
-
-h4 {
-  font-family: 'Lexend', sans-serif; }
-
-a {
+h2, p, h3, h4, a {
   font-family: 'Lexend', sans-serif; }
 
 /* Index */
@@ -35,17 +23,43 @@ a {
   grid-auto-flow: row;
   grid-template-areas: "header header header header header header" "homeBanner homeBanner homeBanner homeBanner homeBanner homeBanner" "homeBanner homeBanner homeBanner homeBanner homeBanner homeBanner" "diseñoProposito diseñoProposito diseñoProposito diseñoProposito diseñoProposito diseñoProposito" "img1 img1 img2 img2 img3 img3" "img1 img1 img2 img2 img3 img3" "img4 img5 img5 img6 img6 boton" "img4 img5 img5 img6 img6 boton" "diseñoSomos diseñoSomos diseñoSomos diseñoSomos diseñoSomos diseñoSomos" "bannerArboles bannerArboles bannerArboles bannerArboles bannerArboles bannerArboles" "footer footer footer footer footer footer"; }
 
+/* Header */
 .header {
   grid-area: header;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-left: 20px; }
+  .header .navFlex {
+    display: flex;
+    align-items: center; }
+  .header .headerLogo {
+    display: flex;
+    align-items: center; }
+  .header .headerMenu {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; }
+  .header .linkHeaderMenu {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    text-align: right;
+    font-weight: 200;
+    color: darkgray; }
+  .header .linkHeaderMenu:hover {
+    font-weight: 500;
+    color: #d1caec;
+    text-decoration: underline; }
 
+/* BannerHome */
 .homeBanner {
   grid-area: homeBanner;
   background-color: blue; }
+  .homeBanner .imgBannerPrincipal {
+    width: 100%; }
 
+/* Diseño con proposito y Somos lo que diseñamos */
 .diseñoProposito {
   grid-area: diseñoProposito;
   background-color: yellow;
@@ -101,61 +115,20 @@ a {
   justify-content: space-around;
   align-items: center; }
 
+/* Banner Arboles */
 .bannerArboles {
   grid-area: bannerArboles;
   background-color: powderblue; }
+  .bannerArboles .imgArboles {
+    width: 100%; }
 
+/* Footer */
 .footer {
   grid-area: footer;
   font-weight: 100;
   font-size: 13px;
   background-color: aliceblue;
   padding-left: 20px; }
-
-/* Header */
-.navFlex {
-  display: flex;
-  align-items: center; }
-
-.headerLogo {
-  display: flex;
-  align-items: center; }
-
-.headerMenu {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between; }
-
-.linkHeaderMenu {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 15px;
-  text-align: right;
-  font-weight: 200;
-  color: darkgray; }
-
-.linkHeaderMenu:hover {
-  font-weight: 500;
-  color: #d1caec;
-  text-decoration: underline; }
-
-/* BannerHome */
-.imgBannerPrincipal {
-  width: 100%; }
-
-/* Diseño con proposito y Somos lo que diseñamos */
-.diseñoTitulo {
-  font-family: 'Lexend', sans-serif;
-  font-size: 56px;
-  text-align: left;
-  padding-left: 20px;
-  line-height: 56px; }
-
-.diseñoParrafo {
-  font-family: 'Lexend', sans-serif;
-  width: 40%;
-  padding-left: 40px;
-  text-align: right; }
 
 /* Galeria de proyectos */
 .imgGeneral {
@@ -172,9 +145,18 @@ a {
   position: absolute;
   left: 75%; }
 
-/* Banner Arboles */
-.imgArboles {
-  width: 100%; }
+.diseñoTitulo {
+  font-family: 'Lexend', sans-serif;
+  font-size: 56px;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 56px; }
+
+.diseñoParrafo {
+  font-family: 'Lexend', sans-serif;
+  width: 40%;
+  padding-left: 40px;
+  text-align: right; }
 
 /* Proyectos */
 /* PAGINA PROYECTOS */
@@ -198,6 +180,24 @@ a {
 
 .menuProyectos {
   grid-area: menuProyectos; }
+  .menuProyectos .proyectosMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+    margin-top: 3%; }
+  .menuProyectos .proyectoBoton {
+    font-size: 17px;
+    font-weight: 100;
+    border: solid 1px #484747;
+    padding: 9px;
+    border-radius: 30px; }
+  .menuProyectos .proyectoBoton:hover {
+    background-color: #484747; }
+  .menuProyectos .proyectoLink {
+    color: #484747; }
+  .menuProyectos .proyectoLink:hover {
+    color: azure; }
 
 .imgPro1 {
   grid-area: imgPro1;
@@ -265,30 +265,6 @@ a {
 .footer {
   grid-area: footer; }
 
-/* Menu de proyectos */
-.proyectosMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 2%;
-  margin-top: 3%; }
-
-.proyectoBoton {
-  font-size: 17px;
-  font-weight: 100;
-  border: solid 1px #484747;
-  padding: 9px;
-  border-radius: 30px; }
-
-.proyectoBoton:hover {
-  background-color: #484747; }
-
-.proyectoLink {
-  color: #484747; }
-
-.proyectoLink:hover {
-  color: azure; }
-
 /* Nosotros */
 /* Grilla Nosotrxs */
 .grillaNosotrxs {
@@ -304,6 +280,8 @@ a {
 
 .Banner-Nosotrxs {
   grid-area: Banner-Nosotrxs; }
+  .Banner-Nosotrxs .nosotrosBanner {
+    width: 100%; }
 
 .card1 {
   grid-area: card1;
@@ -335,11 +313,15 @@ a {
 
 .footerNosotrxs {
   grid-area: footerNosotrxs; }
+  .footerNosotrxs .footerNos {
+    grid-area: footer;
+    font-weight: 100;
+    font-size: 13px;
+    background-color: aliceblue;
+    padding-left: 20px;
+    margin-top: 3%; }
 
 /* Nosotrxs */
-.nosotrosBanner {
-  width: 100%; }
-
 /* Cards */
 .nosotrosCardImg {
   width: 25%; }
@@ -353,15 +335,6 @@ a {
   font-size: 14px;
   text-align: center;
   width: 85%; }
-
-/* Footer */
-.footerNos {
-  grid-area: footer;
-  font-weight: 100;
-  font-size: 13px;
-  background-color: aliceblue;
-  padding-left: 20px;
-  margin-top: 3%; }
 
 /* Hablemos */
 /* Grilla Hablemos */
@@ -382,47 +355,40 @@ a {
   flex-wrap: wrap;
   text-align: left;
   padding-top: 5%; }
+  .hablemosTxt .hablemosTitulo {
+    font-size: 56px;
+    text-align: left;
+    line-height: 56px; }
+  .hablemosTxt .hablemosParrafo {
+    display: block;
+    width: 60%;
+    text-align: left; }
 
 .contactos {
   grid-area: contactos;
   padding-left: 5%; }
+  .contactos .contactosFila1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10%; }
+  .contactos .contactosFila2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1%; }
+  .contactos .contactosTxt {
+    padding-left: 1%;
+    font-size: 25px; }
 
 .bannerHablemos {
   grid-area: bannerHablemos; }
+  .bannerHablemos .hablemosBanner {
+    width: 100%;
+    padding-top: 3%; }
 
 .footer {
   grid-area: footer; }
-
-/* Hablemos columna izquierda */
-.hablemosTitulo {
-  font-size: 56px;
-  text-align: left;
-  line-height: 56px; }
-
-.hablemosParrafo {
-  display: block;
-  width: 60%;
-  text-align: left; }
-
-.contactosFila1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 10%; }
-
-.contactosFila2 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 1%; }
-
-.contactosTxt {
-  padding-left: 1%;
-  font-size: 25px; }
-
-.hablemosBanner {
-  width: 100%;
-  padding-top: 3%; }
 
 /* MEDIA QUERYS */
 /* Chico */
