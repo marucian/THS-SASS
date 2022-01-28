@@ -448,6 +448,13 @@ h2, p, h3, h4, a {
     position: absolute;
     left: 55%; }
   /* PAGINA PROYECTOS */
+  .grillaProyectos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "tituloProyectos" "menuProyectos" "imgPro1" "imgPro2" "imgPro3" "imgPro4" "imgPro5" "imgPro6" "imgPro7" "imgPro8" "imgPro9" "footer"; }
   .proyectosMenu {
     display: flex;
     flex-direction: row;
