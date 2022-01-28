@@ -1,7 +1,7 @@
 @media (max-width:399px) and (min-width: 1px) {
     .grilla {  display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+        grid-template-rows: 90px 0.3fr 0.3fr 1fr 1fr 1fr 1fr 1fr 1fr 0.3fr 1fr 0.5fr 0.5fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
@@ -54,7 +54,7 @@
 
     .segundaLineaBoton {
         font-size: 30px;
-        text-align: left;
+        text-align: center;
         font-weight: 900;
         color: #000000;
         line-height: 30px;
