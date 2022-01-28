@@ -473,7 +473,12 @@ h2, p, h3, h4, a {
     grid-template-rows: 110px 0.3fr 0.5fr 1fr 1fr 1fr 0.15fr; }
   /* Nosotros */
   .grillaNosotrxs {
-    grid-template-rows: 110px 0.7fr 0.28fr 1fr 1fr 1fr 1fr 0.15fr; }
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 0.25fr 1fr 1fr 1fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "Banner-Nosotrxs" "card1" "card2" "card3" "card4" "footerNosotrxs"; }
   .card1 {
     grid-area: card1;
     display: flex;
@@ -487,18 +492,18 @@ h2, p, h3, h4, a {
     align-items: center;
     margin-top: 8%; }
   .nosotrosCardImg {
-    width: 40%; }
+    width: 20%; }
   .nosotrosCardTitulo {
     font-size: 25px;
     text-align: center; }
   /* Hablemos */
   .grillaHablemos {
     display: grid;
-    grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
-    grid-template-rows: 110px 0.6fr 0.4fr 1fr 0.15fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 1fr 1fr 1.5fr 0.5fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "header header header header" "hablemosTxt hablemosTxt hablemosTxt hablemosTxt" "contactos contactos contactos contactos" "bannerHablemos bannerHablemos bannerHablemos bannerHablemos" "footer footer footer footer"; }
+    grid-template-areas: "header" "hablemosTxt" "contactos" "bannerHablemos" "footer"; }
   .contactosFila1 {
     padding-top: 5%; }
   .contactosFila2 {
