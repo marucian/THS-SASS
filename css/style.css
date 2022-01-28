@@ -406,8 +406,103 @@ h2, p, h3, h4, a {
   grid-area: footer; }
 
 /* MEDIA QUERYS */
+/* Extra Chico */
+@media (max-width: 399px) and (min-width: 1px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header" "homeBanner" "homeBanner" "diseñoProposito" "img1" "img2" "img3" "img5" "img6" "boton" "diseñoSomos" "bannerArboles" "footer"; }
+  .header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    margin-bottom: 3%; }
+  .diseñoProposito {
+    grid-area: diseñoProposito;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column; }
+  .diseñoTitulo {
+    font-family: 'Lexend', sans-serif;
+    font-size: 56px;
+    text-align: center;
+    line-height: 56px;
+    padding-top: 5%; }
+  .diseñoParrafo {
+    font-family: 'Lexend', sans-serif;
+    width: 40%;
+    text-align: center;
+    width: 90%;
+    padding-top: 5%; }
+  .segundaLineaBoton {
+    font-size: 30px;
+    text-align: left;
+    font-weight: 900;
+    color: #000000;
+    line-height: 30px;
+    position: absolute;
+    left: 55%; }
+  /* PAGINA PROYECTOS */
+  .proyectosMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 3%; }
+  .proyectoBoton {
+    font-size: 12px;
+    font-weight: 100;
+    border: solid 1px #484747;
+    padding: 9px;
+    border-radius: 30px;
+    margin: 4px; }
+  .grillaProyectos {
+    grid-template-rows: 110px 0.3fr 0.5fr 1fr 1fr 1fr 0.15fr; }
+  /* Nosotros */
+  .grillaNosotrxs {
+    grid-template-rows: 110px 0.7fr 0.28fr 1fr 1fr 1fr 1fr 0.15fr; }
+  .card1 {
+    grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%; }
+  .card2 {
+    grid-area: card2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%; }
+  .nosotrosCardImg {
+    width: 40%; }
+  .nosotrosCardTitulo {
+    font-size: 25px;
+    text-align: center; }
+  /* Hablemos */
+  .grillaHablemos {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-rows: 110px 0.6fr 0.4fr 1fr 0.15fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header header header header" "hablemosTxt hablemosTxt hablemosTxt hablemosTxt" "contactos contactos contactos contactos" "bannerHablemos bannerHablemos bannerHablemos bannerHablemos" "footer footer footer footer"; }
+  .contactosFila1 {
+    padding-top: 5%; }
+  .contactosFila2 {
+    padding-top: 1%; }
+  .hablemosTitulo {
+    padding-left: 3%; }
+  .hablemosParrafo {
+    padding-left: 3%; } }
+
 /* Chico */
-@media (max-width: 768px) and (min-width: 150px) {
+@media (max-width: 768px) and (min-width: 400px) {
   .grilla {
     grid-template-rows: 110px 0.5fr 0.19fr 0.2fr 0.3fr 0.3fr 0.3fr 0.4fr 0.3fr 0.5fr 0.15fr; }
   .header {
