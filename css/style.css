@@ -78,18 +78,23 @@ h2, p, h3, h4, a {
 .img1 {
   grid-area: img1;
   background-image: url("../img/THS-Tembleke-Tattoo.png");
-  background-size: 100% 100%;
+  background-size: 50% 50%;
+  background-size: cover;
   margin-top: 10px; }
 
 .img2 {
   grid-area: img2;
   background-image: url("../img/THS-FNC-Reporte.png");
-  background-size: 100% 100%;
+  background-size: 50% 50%;
+  background-size: cover;
   margin-top: 10px; }
 
 .img3 {
   grid-area: img3;
-  background-color: #ff99a0;
+  background-image: url("../img/THS-SanMiguel.png");
+  background-size: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: 10px; }
 
 .img4 {
