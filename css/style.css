@@ -99,17 +99,26 @@ h2, p, h3, h4, a {
 
 .img4 {
   grid-area: img4;
-  background-color: #F8F7F9;
+  background-image: url("../img/THS-Tembleke-Fabrica.png");
+  background-size: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: 10px; }
 
 .img5 {
   grid-area: img5;
-  background-color: #a3f0e0;
+  background-image: url("../img/THS-Molinos-Reporte.png");
+  background-size: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: 10px; }
 
 .img6 {
   grid-area: img6;
-  background-color: #ff99a0;
+  background-image: url("../img/THS-Tembleke-SuperAcido.png");
+  background-size: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
   margin-top: 10px; }
 
 .boton {
