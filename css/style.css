@@ -444,9 +444,7 @@ h2, p, h3, h4, a {
     text-align: center;
     font-weight: 900;
     color: #000000;
-    line-height: 30px;
-    position: absolute;
-    left: 55%; }
+    line-height: 30px; }
   /* PAGINA PROYECTOS */
   .grillaProyectos {
     display: grid;
