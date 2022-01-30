@@ -1,6 +1,24 @@
 @media (max-width:768px) and (min-width: 400px) {
     .grilla {
-        grid-template-rows: 110px 0.5fr 0.19fr 0.2fr 0.3fr 0.3fr 0.3fr 0.4fr 0.3fr 0.5fr 0.15fr;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 90px 0.2fr 0.2fr 0.7fr 1fr 1fr 1fr 1fr 1fr 0.3fr 1fr 0.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "header"
+            "homeBanner"
+            "homeBanner"
+            "diseñoProposito"
+            "img1"
+            "img2"
+            "img3"
+            "img5"
+            "img6"
+            "boton"
+            "diseñoSomos"
+            "bannerArboles"
+            "footer";
     }
 
     .header {
@@ -14,7 +32,6 @@
 
     .diseñoProposito {
         grid-area: diseñoProposito;
-        background-color: yellow;
         display: flex;
         flex-direction: column;
     }
@@ -42,7 +59,7 @@
         color: #000000;
         line-height: 30px;
         position: absolute;
-        left: 55%;
+        left: 75%;
     }
 
     /* PAGINA PROYECTOS */

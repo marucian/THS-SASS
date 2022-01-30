@@ -79,8 +79,17 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    .diseñoTitulo{
+        color:$Azul
+    }
+    .diseñoParrafo{
+        color: $Azul
+    }
+    .propositoTxt{
+        color:$Rosa
+    }
 }
 
 .img1 {
@@ -141,16 +150,28 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
+    
 }
 
 .diseñoSomos {
     grid-area: diseñoSomos;
-    background-color: $Rosa;
+    background-color: $Blanco;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    .diseñoTitulo{
+        color:$Azul
+    }
+    .diseñoParrafo{
+        color: $Azul
+    }
+    .propositoTxt{
+        color:$Rojo
+    }
 }
 
 /* Banner Arboles */
@@ -184,7 +205,7 @@
     font-size: 56px;
     text-align: left;
     font-weight: 900;
-    color: #000000;
+    color: $Azul;
     line-height: 50px;
     position: absolute;
     left: 75%;
@@ -196,6 +217,7 @@
     text-align: left;
     padding-left: 20px;
     line-height: 56px;
+    
 }
 
 .diseñoParrafo {
@@ -203,5 +225,6 @@
     width: 40%;
     padding-left: 40px;
     text-align: right;
+    
 }
 
